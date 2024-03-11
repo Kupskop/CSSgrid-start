@@ -4,11 +4,16 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: black;
+}
+
 section {
+  margin-left: 340px;
   display: grid;
   grid-template-columns: 400px 400px;
   grid-template-rows: 400px 400px;
-  gap: 5px;
+  gap: 10px;
 }
 
 #box1 {
